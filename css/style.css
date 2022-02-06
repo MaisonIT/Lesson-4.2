@@ -1,0 +1,31 @@
+/* Обнуляющий стиль */
+@import url(null.css);
+/* &display=swap Для подключения шрифта */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #424551;
+	font-weight: 400;
+}
+.main-title {
+	font-size: 46px;
+	font-weight: 900;
+	color: #1e212c;
+}
+.main-text {
+	font-size: 20px;
+	color: #1e212c;
+	font-weight: 700;
+}
+.text-center {
+	font-size: 20px;
+	color: #1e212c;
+	font-weight: 700;
+	text-align: center;
+}
+ul li {
+	text-align: justify;
+}
